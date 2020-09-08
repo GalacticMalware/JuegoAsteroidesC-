@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Juegos" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Juegos" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/include" />
+				</Compiler>
+				<Linker>
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-audio-d.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-graphics-d.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-main-d.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-network-d.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-system-d.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-window-d.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libFLAC.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libfreetype.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libogg.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libopenal32.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-audio.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-audio-s.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-audio-s-d.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-graphics.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-graphics-s.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-graphics-s-d.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-main.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-network.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-network-s.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-network-s-d.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-system.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-system-s.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-system-s-d.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-window.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-window-s.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-window-s-d.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libvorbis.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libvorbisenc.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libvorbisfile.a" />
+					<Add directory="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Juegos" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-audio-d.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-graphics-d.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-main-d.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-network-d.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-system-d.a" />
+					<Add library="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib/libsfml-window-d.a" />
+					<Add directory="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="C:/Users/Daniel Alejandro/Downloads/Nueva carpeta/SFML-2.5.0/lib" />
+		</Linker>
+		<Unit filename="images/background.jpg" />
+		<Unit filename="images/fire_blue.png" />
+		<Unit filename="images/fire_red.png" />
+		<Unit filename="images/menu.jpg" />
+		<Unit filename="images/perdiste.jpg" />
+		<Unit filename="images/rock.png" />
+		<Unit filename="images/rock_small.png" />
+		<Unit filename="images/spaceship.png" />
+		<Unit filename="main.cpp" />
+		<Unit filename="openal32.dll" />
+		<Unit filename="sfml-audio-2.dll" />
+		<Unit filename="sfml-audio-d-2.dll" />
+		<Unit filename="sfml-graphics-2.dll" />
+		<Unit filename="sfml-graphics-d-2.dll" />
+		<Unit filename="sfml-network-2.dll" />
+		<Unit filename="sfml-network-d-2.dll" />
+		<Unit filename="sfml-system-2.dll" />
+		<Unit filename="sfml-system-d-2.dll" />
+		<Unit filename="sfml-window-2.dll" />
+		<Unit filename="sfml-window-d-2.dll" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
